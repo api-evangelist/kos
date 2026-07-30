@@ -1,19 +1,52 @@
 aid: kos
 name: Kos
-description: Kos is a company surfaced as a portfolio company of 8vc and added to the API Evangelist network
-  as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kos (Kosai, Inc.) builds what it calls the world''s first virtual finance
+  employee: an AI agent given its own workstation, org identity, software licenses,
+  RBAC and audit logs, which completes finance and back-office workflows for capital-
+  and inventory-heavy operators across datacenters, defense, energy, long-lead equipment,
+  space and contracting. Kos reviews pay applications and vendor invoices line-by-line
+  against GMP contracts, catching missing backup, overbills and calculation errors;
+  generates, routes and closes out purchase orders inside a customer''s ERP; and is
+  taught new workflows over screenshare like a new hire. It is reached over email,
+  Slack, Teams, phone and Zoom rather than through a UI, app or public API. Founded
+  by Tanuj and Mani, who met as graduate researchers at Stanford under Sachin Katti;
+  backed by 8VC, XYZ Ventures, MVP Ventures and Launch, with advisors including former
+  Equinix CFO Keith Taylor. Headquartered in San Francisco, California.'
 url: https://raw.githubusercontent.com/api-evangelist/kos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/693848b70de88417d240f967/69e5c1a9c83db668e253985d_webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 8vc
-x-tier: stub
-x-tier-reason: portfolio-lead
+- XYZ Ventures
+- MVP Ventures
+- Launch
+x-tier: profiled
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agentic Workflows
+- Finance
+- Accounts Payable
+- Enterprise Software
+- Data Centers
+- Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://kos.ai
+- type: Blog
+  url: https://www.kos.ai/blog
+- type: PrivacyPolicy
+  url: https://www.kos.ai/privacy
+- type: Careers
+  url: https://www.kos.ai/careers
+- type: Demo
+  url: https://www.kos.ai/demo
+- type: Video
+  url: https://www.youtube.com/watch?v=J3QME5Xziuk
+- type: DomainSecurity
+  url: security/kos-domain-security.yml
+- type: LLMsTxt
+  url: llms/kos-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
