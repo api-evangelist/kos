@@ -1,0 +1,40 @@
+# Kos
+
+> Kos (Kosai, Inc.) builds a "virtual finance employee" — an AI agent with its own
+> workstation, org identity, software licenses, RBAC and audit logs — that completes
+> finance and back-office workflows for capital- and inventory-heavy operators in
+> datacenters, defense, energy, long-lead equipment, space and contracting. Kos is
+> reached over email, Slack, Teams, phone and Zoom; the company deliberately ships
+> no UI, app or public API.
+
+## About
+
+- [Kos AI](https://kos.ai): Homepage — product, use cases and how Kos works.
+- [Field notes (blog)](https://www.kos.ai/blog): Company announcements and writing.
+- [Careers](https://www.kos.ai/careers): Open roles across research, engineering and ethics.
+- [Interview Kos](https://www.kos.ai/interview): Book a working session with the agent.
+- [Demo](https://www.kos.ai/demo): Request a product demo.
+- [See Kos Run (video)](https://www.youtube.com/watch?v=J3QME5Xziuk): 4-minute walkthrough of invoice review, the agent workstation, chat follow-up and teaching a workflow over screenshare.
+
+## What Kos handles
+
+- Invoices: pay applications and vendor invoices reconciled line-by-line against GMP contracts; catches missing backup, overbills and calculation errors; emails commentary, answers questions over chat, uploads to the ERP.
+- Purchase orders: generates, routes and closes out POs by operating the customer's ERP, asking clarifying questions over Slack, email or call.
+- Customer-taught workflows: utilities billing, ERP automation, draw requests, month-end close — taught over screenshare and then run inside those rails.
+
+## Integration surface
+
+- No public API, developer portal, SDK, CLI or webhook surface is published as of 2026-07-19.
+- Kos integrates by operating the customer's existing software (Excel, Word, SharePoint, Google Drive, the customer's ERP) under its own identity and audit log, rather than by exposing an API.
+- Contact for API or integration questions is not published; general contact runs through the demo and interview pages.
+
+## Policies
+
+- [Privacy Policy](https://www.kos.ai/privacy): Last updated 2026-05-26. Security contact for compromised accounts or content: security@kos.ai. Privacy contact: privacy@kos.ai.
+- No Terms of Service page is published at a discoverable URL.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kos/refs/heads/main/apis.yml): APIs.json profile for Kos.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/kos/refs/heads/main/security/kos-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for kos.ai.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/kos/refs/heads/main/well-known/kos-well-known.yml): Probe record of the /.well-known/ discovery surface.

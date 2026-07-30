@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.kos.ai/.well-known/*
+host: https://www.kos.ai
+notes: >-
+  No /.well-known/ discovery documents are published. Kos runs a Webflow marketing
+  site with no API host; docs./api./developers./app. subdomains do not resolve to a
+  certificate (TLS handshake failure, curl 525), so there is no second host to probe.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: served empty (zero bytes)
+- path: /sitemap.xml
+  status: 404
