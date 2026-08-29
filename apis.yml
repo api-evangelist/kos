@@ -13,6 +13,17 @@ description: 'Kos (Kosai, Inc.) builds what it calls the world''s first virtual 
   backed by 8VC, XYZ Ventures, MVP Ventures and Launch, with advisors including former
   Equinix CFO Keith Taylor. Headquartered in San Francisco, California.'
 url: https://raw.githubusercontent.com/api-evangelist/kos/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
