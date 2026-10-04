@@ -56,7 +56,7 @@ tags:
 - Finance
 - Accounts Payable
 - Enterprise Software
-- Data-Center
+- Data Center
 - Infrastructure
 tags_raw:
 - Company
@@ -68,6 +68,7 @@ tags_raw:
 - Enterprise Software
 - Data Centers
 - Infrastructure
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
